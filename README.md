@@ -1,6 +1,11 @@
-# matrix2d
+# canvas-matrix2d
 2d图形矩阵工具，通过矩阵，可以简单快捷的计算2d图形对象的平移、旋转，并自然的画在canvas上，并可以轻松的转换全局坐标和本地坐标。避免繁琐的三角函数数去计算对象的位置信息。
 
+# 安装
+```
+npm install canvas-matrix2d
+或者<script>标签直接引用  build/matrix2d.js
+```
 
 # API
 
@@ -26,4 +31,5 @@ new Matrix2d('a, b, c, d, e, f')
 
 # demo
 
+* https://ouch1985.github.io/matrix2d/demo/index.html
 * demo/index.js 演示了如果平移、旋转一个矩形对象；如果根据matrix全局坐标(鼠标坐标)是否落在平移、旋转后的矩形对象上
