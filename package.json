@@ -1,0 +1,10 @@
+{
+    "name": "matrix2d",
+    "version": "1.0.0",
+    "description": "matrix 2d util",
+    "scripts": {
+        "build": "rollup src/matrix2d.js --file build/matrix2d.js --format umd --name 'Matrix2d'"
+    },
+    "main": "src/matrix.js",
+    "license": "MIT"
+}
